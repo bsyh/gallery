@@ -1,21 +1,21 @@
 # Site settings
-title: GALLERY
+title: buhu_gallery
 email: "hushouyue0928@outlook.com"
 description: "Art Gallery by Bruce Hu"
 url: "https://bsyh.github.io"
 baseurl: "/gallery"
 facebook_username: "shouyue.hu.9"
 twitter_username: ""
-instagram_username: ""
-github_username:  ""
+instagram_username: "buhu.hua"
+github_username:  "bsyh"
 deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
-share: true
+share: false
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   buhu_gallery
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
