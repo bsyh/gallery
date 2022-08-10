@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		448227EA28A4575F00C39001 /* about */ = {isa = PBXFileReference; lastKnownFileType = folder; path = about; sourceTree = "<group>"; };
+		448227EB28A4575F00C39001 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = _config.yml; sourceTree = "<group>"; };
+		448227EC28A4576000C39001 /* _posts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _posts; sourceTree = "<group>"; };
+		448227ED28A4576000C39001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		448227EE28A4576000C39001 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		448227EF28A4576000C39001 /* newsletter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = newsletter; sourceTree = "<group>"; };
+		448227F028A4576000C39001 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		448227F128A4576100C39001 /* search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		448227F228A4576100C39001 /* gallery */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gallery; sourceTree = "<group>"; };
+		448227F328A4576100C39001 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		448227F428A4576200C39001 /* 404.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = 404.html; sourceTree = "<group>"; };
+		448227F528A4576200C39001 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		448227F628A4576200C39001 /* _layouts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _layouts; sourceTree = "<group>"; };
+		448227F728A4576200C39001 /* feed.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = feed.xml; sourceTree = "<group>"; };
+		448227F828A4576300C39001 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		448227F928A4576300C39001 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		448227FA28A4576300C39001 /* bower.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bower.json; sourceTree = "<group>"; };
+		448227FB28A4576300C39001 /* Gruntfile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Gruntfile.js; sourceTree = "<group>"; };
+		448227FC28A4576400C39001 /* journal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = journal; sourceTree = "<group>"; };
+		448227FD28A4576400C39001 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		448227FE28A4576400C39001 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		448227FF28A4576500C39001 /* _includes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _includes; sourceTree = "<group>"; };
+		4482280028A4576500C39001 /* search.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = search.html; sourceTree = "<group>"; };
+		4482280128A4576500C39001 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		4482280228A4576500C39001 /* photorama_thumb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = photorama_thumb.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		448227E328A4532F00C39001 = {
+			isa = PBXGroup;
+			children = (
+				448227EB28A4575F00C39001 /* _config.yml */,
+				448227FF28A4576500C39001 /* _includes */,
+				448227F628A4576200C39001 /* _layouts */,
+				448227EC28A4576000C39001 /* _posts */,
+				448227F428A4576200C39001 /* 404.html */,
+				448227EA28A4575F00C39001 /* about */,
+				448227FA28A4576300C39001 /* bower.json */,
+				448227F928A4576300C39001 /* css */,
+				4482280128A4576500C39001 /* favicon.ico */,
+				448227F728A4576200C39001 /* feed.xml */,
+				448227EE28A4576000C39001 /* fonts */,
+				448227F228A4576100C39001 /* gallery */,
+				448227FB28A4576300C39001 /* Gruntfile.js */,
+				448227FD28A4576400C39001 /* img */,
+				448227F028A4576000C39001 /* index.html */,
+				448227FC28A4576400C39001 /* journal */,
+				448227F828A4576300C39001 /* js */,
+				448227F528A4576200C39001 /* LICENSE */,
+				448227F328A4576100C39001 /* logo.png */,
+				448227EF28A4576000C39001 /* newsletter */,
+				448227FE28A4576400C39001 /* package.json */,
+				4482280228A4576500C39001 /* photorama_thumb.gif */,
+				448227ED28A4576000C39001 /* README.md */,
+				4482280028A4576500C39001 /* search.html */,
+				448227F128A4576100C39001 /* search.json */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		448227E428A4532F00C39001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 448227E728A4532F00C39001 /* Build configuration list for PBXProject "gallery" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448227E328A4532F00C39001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		448227E828A4532F00C39001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		448227E928A4532F00C39001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448227E728A4532F00C39001 /* Build configuration list for PBXProject "gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448227E828A4532F00C39001 /* Debug */,
+				448227E928A4532F00C39001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448227E428A4532F00C39001 /* Project object */;
+}
