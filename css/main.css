@@ -76,14 +76,14 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: #0085a1;
+    color: #dedede;
   }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover{
-    color: #0085a1;
+    color: #dedede;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -113,14 +113,14 @@ hr.small {
     color: #ffffff;
   }
   .navbar-custom.is-fixed .navbar-brand:hover {
-    color: #0085a1;
+    color: #dedede;
   }
   
   .navbar-custom.is-fixed .nav li a:hover {
-    color: #0085a1;
+    color: #dedede;
   }
 .navbar-custom.is-fixed .nav li a:active{
-    color: #6ec54d;
+    color: #0085a1;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
