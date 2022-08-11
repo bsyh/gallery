@@ -33,8 +33,8 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://bsyh.github.io/gallery/gallery/"  
-  - JOURNAL: "https://bsyh.github.io/gallery/journal/"
+  - GALLERY: "https://bsyh.github.io/gallery/gallery/gallery01"
+#  - JOURNAL: "https://bsyh.github.io/gallery/journal/"
   - ABOUT: "https://bsyh.github.io/gallery/about/"
 
 # All translation keys
