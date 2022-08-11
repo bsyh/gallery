@@ -76,14 +76,14 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: #dedede;
+    color: #00a176;
   }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover{
-    color: #dedede;
+    color: #00a176;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -113,11 +113,11 @@ hr.small {
     color: #ffffff;
   }
   .navbar-custom.is-fixed .navbar-brand:hover {
-    color: #dedede;
+    color: #00a176;
   }
   
   .navbar-custom.is-fixed .nav li a:hover {
-    color: #dedede;
+    color: #00a176;
   }
 .navbar-custom.is-fixed .nav li a:active{
     color: #0085a1;
