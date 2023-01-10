@@ -1,5 +1,5 @@
 # Site settings
-title: Buhu Elysium
+title: Bruce Elysium
 email: "hushouyue0928@outlook.com"
 description: "Art Gallery by Bruce Hu"
 url: "https://bsyh.github.io"
@@ -15,7 +15,7 @@ share: false
 
 # Owner/author information
 owner:
-  name:   buhu
+  name:   bruce hu
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
