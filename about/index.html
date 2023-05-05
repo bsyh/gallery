@@ -1,13 +1,47 @@
----
-layout: page
-title: "About"
-description: "Bruce"
-active: about
-header-img: "img/about-bg.jpeg"
----
-<head>
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
 
- <!-- Google tag (gtag.js) -->
+<html lang="en">
+<head>
+  <title>Shouyue Hu (胡首阅)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+
+
+
+  <!-- <style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  </style> -->
+
+   <!-- Google tag (gtag.js) -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C55GZEWN79"></script>
  <script>
    window.dataLayer = window.dataLayer || [];
@@ -17,17 +51,221 @@ header-img: "img/about-bg.jpeg"
    gtag('config', 'G-C55GZEWN79');
  </script>
 
+
+
+
 </head>
 
 
-<h1>Vitae</h1>
-<h4>2022 Graduated from Queen's University in Computing Major and Mathematics Minor.</h4>
-<h4>2023 Data Engineer Intern @ Research Team Delta Controls Inc.</h4>
-<h4>2023 Research Assitant @ Lab Init Robots.</h4>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+<body>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#education">Education</a></li> 
+          <li><a href="index.html#experience">Experience</a></li> 
+				  <li><a href="index.html#projects">Projects</a></li>
+				  <!-- <li><a href="#publications">Publications</a></li>  -->
+				  
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 100vh;">
+                
+                <!-- Main Image -->
+                <img class="img-responsive" src="IMG_2381.JPG" alt=""><br>
+                
+                <div style="margin-top:3%; text-align:justify;">                
+					<p>Hello! I am a developer intern in a building automation system team and a research assistant regarding pupil analytics. I am interested in robotics, machine learning and digital arts.   </p>
+					
+					
+                </div>
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Shouyue Hu (胡首阅)</b></div><br>
+                <p><b>s [dot] hu [at] queensu [dot] ca</b><br>
+                <p>Montreal<br>
+                Quebec <br>
+                Canada<br>
+                </p>
+            </div>
+            
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <!-- <dd><a href="#">Google Scholar</a></dd>  -->
+              <!-- <dd><a href="#">Twitter</a></dd> -->
+              <dd><a href="https://www.linkedin.com/in/brucesh/">LinkedIn</a></dd>
+              <dd><a href="https://github.com/bsyh">Github</a></dd>
+              <dd><a href="https://www.artstation.com/buhu">ArtStation</a></dd>
+              
+            </div>
+            
+             <!--education -->
+            <div class="row">
+              <div class="col-md-10" style="height: 100vh; overflow: auto;">
+                <h2 id="education">Education</h2>
+      
+                <strong>BcompH in Computing Minor Mathematics</strong><br />
+                <p>
+                  Queen's University  ( 2018 – 2022, Ontario, CA)<br />
+                  Fencing Varsity Team<br />
+                </p>
+      
+               
+              </div>
+            </div>
+
+
+            <!-- Experience -->
+            <div class="row">
+              <div class="col-md-10" style="height: 100vh; overflow: auto;">
+                <h2 id="experience">Experience</h2>
+                
+
+                <strong>Developer Intern (Research)</strong><br />
+                <p>
+                  Delta Contorls Inc. (remote), Jan 2023 – Aug 2023, British Columnbia, CA
+                  <br />
+                  <ul>
+                    - Researching device tag in building control which automatically tags sensors and controllers following the schema of Brick/REC/ASHRAE, assisting with proof of concept and advised by <a href="https://carleton.ca/sbes/people/jayson-bursill/">Bursill, Jayson</a>;<br />
+                    - Studying previous ML-based solution of tag prediction, proposing data augmentation methods and  low-data-required models;<br />
+                    - Establishing independently data pipeline for BACnet, building ontology scripts and visualization tools and web-based IoT applications in Python(flask, numpy, pysci), Javascript, PostgreSQL and REST;<br />
+                    - Improved request speed by 58% by 6-line asynchronism, defined a XML schema for company solution. <br />
+                    
+                  </ul>
+                </p>
+
+
+                <strong>Research Assistant</strong><br />
+                <p>
+                  Lab INIT Robots at École de technologie supérieure, Feb 2023 – Present, Quebec, CA
+                  <br />
+                  <ul>
+                    - Studying and coding filters and detection algorithms for pupil diameter, IMU and audio feature extraction as parameters of the cognitive load model of robot operation, advised by <a href="https://www.etsmtl.ca/en/research/professors/dastonge/">St-Onge, David</a>;<br />
+                    - Developing ROS module for Tobii Glasses following HRI4ROS standard using socket, ffmpeg, OpenSMILE, and OpenCV;<br />
+                    - Supporting mechanical students, and demonstrated work to post-doc member.<br />
+                  </ul>
+                </p>
+
+                
+
+                <strong>Robotics Engineer Intern</strong><br />
+                <p>
+                  Shuangyuan Optoelectronics Tech Co., Ltd., Jun 2021 – Aug 2021, Guangdong, CN
+                  <br />
+                  <ul>
+                    - Studied calibration methods, kinematic robustness filters and embedded computer vision for product detection  and segmentation using OpenCV, converted coordinations using matrix and regression;<br />
+                    - Designed control software, drove the hardware with Serial and Modbus, encapsulated the codes into APIs in Python using multi-threading, and edited 3D printing components using SolidWorks;<br />
+                    - Iterated the version using Git, and migrated the software to a Linux-based embedded board;<br />
+                    - Created a set of Scara robotic arm solution with 5 DoF and a repeatability of 0.15mm with object detection code including the parameter turning report (PID, CV, light pose, etc.).<br />
+                  </ul>
+                </p>
+      
+                
+              </div>
+            </div>
+
+
+            <!-- Projects -->
+            <div class="col-md-8" style="height: 100vh; overflow: auto;">
+              <h2 id="projects">Projects</h2>
+      
+      <!-- <dd><a href="./staticLocalityAnalysis.html"><strong>Static Locality Analysis</strong></a></dd><br/> -->
+      
+      <strong>Stable Diffusion Textual Inversion </strong> <a href="https://github.com/bsyh/sd-concepts-library-buhu-art-style">[Source Code]</a><br/>
+              <ul>
+                A Stable Diffusion Model that imitates my style of <a href="../gallery/gallery01/index.html">digital illustrations</a>.
+              </ul>
+
+      <strong>Location Matching</strong> <a href="https://github.com/bsyh/foursquare">[Source Code]</a><br/>
+              
+              <ul>
+      Match location points based on name, latitude, longitude, address, city, state, zip, country, url, phone, categories and point_of_interest.
+      </ul>
+
+      <strong>EvoMedley: Interactive Melody Generator with Multi-song Fusion</strong> <a href="https://github.com/bsyh/EvoMusic">[Source Code]</a><br/>
+              
+              <ul>
+                An Evolutionary Algorithm that generates new songs, incorporates the commonalities and merges the features of all input songs guided by the user's interactive selections.  Bechelor graduation project advised by <a href="https://www.cs.queensu.ca/people/Ting/Hu">Hu, Ting</a>.
+      </ul>
+
+      <strong>Hexapod on RaspberryPi</strong> <a href="https://github.com/bsyh/hexapod-raspberrypi">[Source Code]</a><br/>
+              
+              <ul>
+                A hexapod robot that can be controlled by a Raspberry Pi.
+      </ul>
+
+      <strong>Path Searching using Evolutionary Algorithm</strong> <a href="https://github.com/bsyh/path-planing-using-EA">[Source Code]</a><br/>
+              
+      <ul>
+        A hexapod robot that can be controlled by a Raspberry Pi.
+</ul>
+
+<strong>Reinforcement Learning in a physics simulation environment</strong> <a href="https://github.com/cisc474projectgroup/cartpole-q-learning">[Source Code]</a><br/>
+              
+<ul>
+  Implementation of Q-learning on cart-pole problem with OpenAI/gym.
+</ul>
+              
+
+     
+
+             </div> 
+            
+            <!-- Publications -->
+            <!-- <div class="col-md-8" style="height: 100vh;">    
+                <h2 id="publications">Publications</h2>
+                
+                <strong>Peer-reviewed</strong><br/>
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
+                </ul>
+            
+                <strong>Technical Reports</strong><br/>
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
+                </ul>
+            </div> -->
+
+            
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+
+</html>
