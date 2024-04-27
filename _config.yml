@@ -35,7 +35,7 @@ comments :
 nav:
   - GALLERY: "https://bsyh.github.io/gallery/gallery01"
 #  - JOURNAL: "https://bsyh.github.io/gallery/journal/"
-  - ABOUT: "https://bsyh.github.io/about/"
+  # - ABOUT: "https://bsyh.github.io/about/"
 
 # All translation keys
 translations:
